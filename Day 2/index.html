@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Primitive Types</title>
+</head>
+<body>
+    <script>
+        // Primitive Types
+        let a = 10;
+        const b = 20;
+        var c = 30;
+
+        // let: can be reassigned, and can be accessed only within the block it's declared in
+        console.log(typeof a); // number
+
+        // const: can't be reassigned, and can be accessed only within the block it's declared in
+        console.log(typeof b); // number
+
+        // var: can be reassigned, and can be accessed within the function it's declared in
+        console.log(typeof c); // number
+
+        // Swap two variables
+        let x = 10;
+        let y = 20;
+        console.log("Before swap: x =", x, "y =", y);
+
+        [x, y] = [y, x];
+        console.log("After swap: x =", x, "y =", y);
+    </script>
+</body>
+</html>
