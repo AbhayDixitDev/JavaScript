@@ -1,0 +1,95 @@
+        <h2>Arithmetic assignments</h2>
+        <p>Let's create a variable <code>d</code> and assign it the value 10.</p>
+        <p>Then, let's use the arithmetic assignment operators to perform calculations on <code>d</code>.</p>
+        <ul>
+            <li><code>d += 5;</code> is the same as <code>d = d + 5;</code></li>
+            <li><code>d -= 5;</code> is the same as <code>d = d - 5;</code></li>
+            <li><code>d \*= 5;</code> is the same as <code>d = d * 5;</code></li>
+            <li><code>d /= 5;</code> is the same as <code>d = d / 5;</code></li>
+            <li><code>d %= 5;</code> is the same as <code>d = d % 5;</code></li>
+            <li><code>d **= 5;</code> is the same as <code>d = d ** 5;</code></li>
+        </ul>
+        <p>Let's log the value of <code>d</code> after each calculation.</p>
+        <script>
+            let d = 10;
+            d += 5;
+            console.log(d); // 15
+
+            d -= 5;
+            console.log(d); // 10
+
+            d *= 5;
+            console.log(d); // 50
+
+            d /= 5;
+            console.log(d); // 10
+
+            d %= 5;
+            console.log(d); // 0
+
+            d **= 5;
+            console.log(d); // 10
+        </script>
+
+        <h2>Comparison operators</h2>
+        <p>Let's create a variable <code>e</code> and assign it the value 10.</p>
+        <p>Then, let's use the comparison operators to compare <code>e</code> with 10.</p>
+        <ul>
+            <li><code>e == 10</code> checks if <code>e</code> is equal to 10.</li>
+            <li><code>e === 10</code> checks if <code>e</code> is equal to 10 and if they are the same type.</li>
+            <li><code>e != 10</code> checks if <code>e</code> is not equal to 10.</li>
+            <li><code>e !== 10</code> checks if <code>e</code> is not equal to 10 and if they are not the same type.</li>
+            <li><code>e < 10</code> checks if <code>e</code> is less than 10.</li>
+            <li><code>e > 10</code> checks if <code>e</code> is greater than 10.</li>
+            <li><code>e <= 10</code> checks if <code>e</code> is less than or equal to 10.</li>
+            <li><code>e >= 10</code> checks if <code>e</code> is greater than or equal to 10.</li>
+        </ul>
+        <p>Let's log the result of each comparison.</p>
+        <script>
+            let e = 10;
+            console.log(e == 10); // true
+            console.log(e === 10); // true
+            console.log(e != 10); // false
+            console.log(e !== 10); // false
+            console.log(e < 10); // false
+            console.log(e > 10); // false
+            console.log(e <= 10); // true
+            console.log(e >= 10); // true
+        </script>
+
+        <h2>Logical operators</h2>
+        <p>Let's create two variables <code>f</code> and <code>g</code> and assign them the values 10 and 20, respectively.</p>
+        <p>Then, let's use the logical operators to perform logical operations on <code>f</code> and <code>g</code>.</p>
+        <ul>
+            <li><code>f > 10 && g > 10</code> checks if both <code>f</code> and <code>g</code> are greater than 10.</li>
+            <li><code>f > 10 || g > 10</code> checks if either <code>f</code> or <code>g</code> is greater than 10.</li>
+            <li><code>!(f > 10)</code> checks if <code>f</code> is not greater than 10.</li>
+        </ul>
+        <p>Let's log the result of each logical operation.</p>
+        <script>
+            let f = 10;
+            let g = 20;
+            console.log(f > 10 && g > 10); // false
+            console.log(f > 10 || g > 10); // true
+            console.log(!(f > 10)); // true
+        </script>
+
+        <h2>Calculate area of a rectangle</h2>
+        <p>Let's create two variables <code>l</code> and <code>w</code> and assign them the values 10 and 20, respectively.</p>
+        <p>Then, let's use the multiplication operator to calculate the area of a rectangle with length <code>l</code> and width <code>w</code>.</p>
+        <p>Let's log the result.</p>
+        <script>
+            let l = 10;
+            let w = 20;
+            let area = l * w;
+            console.log(area); // 200
+        </script>
+
+        <h2>Check if a number is even or odd</h2>
+        <p>Let's create a variable <code>h</code> and assign it the value 10.</p>
+        <p>Then, let's use the modulus operator to check if <code>h</code> is even or odd.</p>
+        <p>Let's log the result.</p>
+        <script>
+            let h = 10;
+            console.log(h % 2 == 0 ? "even" : "odd"); // even
+        </script>
